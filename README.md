@@ -69,8 +69,6 @@ Users should be able to:
 
   Also had to do the same thing for the shadowing around the the button and the entire component. This shadowing was done with black as the base color with barely any opacity, `shadow: hsla(0, 0%, 0%, 0.1)`
 
--
-
 ### Continued development
 
 ### Useful resources
@@ -79,6 +77,8 @@ Users should be able to:
 - [Grid + Flex Tutorial with Adi Purdila](https://youtu.be/18VLSXfsj94) - This video was very clear and had great examples of using Grid and using Flex.
 - [hsla color defined](https://www.w3schools.com/html/html_colors_hsl.asp#:~:text=HSLA%20color%20values%20are%20an%20extension%20of%20HSL%20color%20values,not%20transparent%20at%20all)%3A)
 - [CSS Tricks with Color](https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/)
+
+- [Quick guide to ul de-styling](https://www.w3schools.com/howto/howto_css_list_without_bullets.asp) - I can never remember that it is `list-style-type:none`
 
 ## Author
 
