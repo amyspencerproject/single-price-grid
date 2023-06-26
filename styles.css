@@ -77,3 +77,6 @@ select {
 /* ========================= Base Styles ========================= */
 
 /* ========================= Media Queriers ========================= */
+//desktop change at 960px
+@media screen and (min-width: 60rem) {
+}
