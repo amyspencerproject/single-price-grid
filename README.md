@@ -61,12 +61,24 @@ Users should be able to:
 
 - Decided to go with Flex for this component 😃
 
+- The Figma file for this challenge has drop shadow effects to set the color for the lighter cyan card. This is not cool for the developer who has to find a color to match whatever transparency was set by the designer. It took some reading but I did eventually figure out that an hsla value can be used to get the lighter cyan color.
+
+  `cyan: hsl(179, 62%, 43%);`
+
+  `light-cyan: hsla(179, 62%, 43%, 0.75);`
+
+  Also had to do the same thing for the shadowing around the the button and the entire component. This shadowing was done with black as the base color with barely any opacity, `shadow: hsla(0, 0%, 0%, 0.1)`
+
+-
+
 ### Continued development
 
 ### Useful resources
 
 - [CSS Grid vs. Flexbox](https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184) - This article was suggested to me by someone from FEM. It has other resources inside of it explaining even more aspects to consider.
 - [Grid + Flex Tutorial with Adi Purdila](https://youtu.be/18VLSXfsj94) - This video was very clear and had great examples of using Grid and using Flex.
+- [hsla color defined](https://www.w3schools.com/html/html_colors_hsl.asp#:~:text=HSLA%20color%20values%20are%20an%20extension%20of%20HSL%20color%20values,not%20transparent%20at%20all)%3A)
+- [CSS Tricks with Color](https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/)
 
 ## Author
 

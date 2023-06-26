@@ -75,7 +75,102 @@ select {
 }
 
 /* ========================= Base Styles ========================= */
+/* Variables */
+:root {
+  --white: hsl(0, 100%, 100%);
+  --cyan: hsl(179, 62%, 43%);
+  --light-cyan: hsla(179, 62%, 43%, 0.75);
+  --shadow: hsla(0, 0%, 0%, 0.1);
+  /* --light-cyan: hsl(179, 47%, 52%); */
+  /* --dark-cyan: hsl(179, 62%, 11%); */
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-grey: hsl(204, 43%, 93%);
+  --grey-blue: hsl(218, 22%, 67%);
+}
+body {
+  background-color: var(--light-grey);
+}
+main {
+  display: flex;
+  justify-content: center;
+}
 
+.component-container {
+  font-family: "Karla", sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  margin: 4.5rem 2rem;
+  width: 80%;
+  box-shadow: 0px 10px 10px var(--shadow);
+  /* max-width: 14.875rem; */
+}
+
+.card {
+  width: 100%;
+}
+.card-info-wrapper {
+  margin: 1.5rem 1rem;
+  text-align: left;
+}
+
+.join {
+  background-color: var(--white);
+  border-radius: 5px 5px 0 0;
+}
+
+.header-join {
+  color: var(--cyan);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header-30-day {
+  color: var(--bright-yellow);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.text-join {
+  color: var(--grey-blue);
+  font-size: 0.875rem;
+}
+
+.subscribe {
+  background-color: var(--cyan);
+  color: var(--white);
+}
+
+.header-subscribe {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.text-subscribe {
+  color: var(--light-grey);
+}
+
+.bold {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn-sign-up {
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  padding: 0.75rem 3rem;
+  background-color: var(--bright-yellow);
+  border: none;
+  color: var(--white);
+  width: 100%;
+  box-shadow: 0px 10px 10px var(--shadow);
+}
+
+.why {
+  background-color: var(--light-cyan);
+  border-radius: 0 0 5px 5px;
+}
 /* ========================= Media Queriers ========================= */
 //desktop change at 960px
 @media screen and (min-width: 60rem) {
