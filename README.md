@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot%20Single%20Price%20Grid%20Component.png)
+![](./Screenshot%20Active%20Single%20Price%20Grid%20Component.png)
 
 ### Links
 
