@@ -170,9 +170,12 @@ main {
 
 .btn-sign-up:hover {
   color: var(--bright-yellow);
-  border: 3px solid var(--bright-yellow);
+  border: 2px solid var(--bright-yellow);
   background-color: var(--light-cyan);
   box-shadow: none;
+  cursor: pointer;
+  padding: calc(0.75rem - 2px) 3rem;
+  transition: 1s ease;
 }
 
 .why {
